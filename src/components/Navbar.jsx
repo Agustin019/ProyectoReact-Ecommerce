@@ -1,5 +1,6 @@
 import Button from "./Button"
 import React,{useState} from 'react'
+import CartWidget from "./CartWidget";
 const Navbar = () => {
 
  let Links = [
@@ -48,7 +49,9 @@ const Navbar = () => {
                    
                 </ul>
                 <ul className="md:flex md:items-center md:pb-0 pb-12  absolute md:static top-7 md:top-5 right-20">
-                    <li className="text-2xl cursor-pointer"><ion-icon name="cart-outline"></ion-icon></li>
+                    <li className="text-2xl cursor-pointer"><ion-icon name="cart-outline"></ion-icon>
+                    <CartWidget/>
+                    </li>
                     <div className="hidden md:block">
                         <Button> Iniciar sesion</Button>
                     </div>
