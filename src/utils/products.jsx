@@ -4,20 +4,20 @@ export const products = [
         id: 1,
         name: "Mate Pampa  ",
         stock: 10,
-        price: 1400,
+        price: 2599,
         description: "incluye: Azucarero , yerbero , mate y bombilla",
         categoryId: 1,
         category: {
             name: "Mates",
             id: 1
         },
-        image: "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316114/BodegasDelSur/01_1619706181.webp",
+        image: "../../img/matepampa.jpg",
 
     },
     {
 
         id: 2,
-        name: "Mate calabaza Imperial ",
+        name: "Mate Lalo pvc ",
         stock: 10,
         price: 2400,
         description: "incluye: Azucarero , yerbero , mate y bombilla",
@@ -26,43 +26,43 @@ export const products = [
             name: "Mates",
             id: 1
         },
-        image: "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316114/BodegasDelSur/01_1619706181.webp",
+        image: "../../img/mate_lalo.jpg",
 
     },
     {
 
         id: 3,
-        name: "Mate Love",
+        name: "Mate Forrado tipo Pampa",
         stock: 10,
-        price: 1400,
+        price: 2399,
         description: "incluye: Azucarero , yerbero , mate y bombilla",
         categoryId: 1,
         category: {
             name: "Mates",
             id: 1
         },
-        image: "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316114/BodegasDelSur/01_1619706181.webp",
+        image: "../../img/mate_forrado_tipo_pampa.jpg",
 
     },
     {
 
         id: 4,
-        name: "Mate Forrado Sintetico",
+        name: "Mate acero color",
         stock: 10,
-        price: 1400,
-        description: "incluye: Azucarero , yerbero , mate y bombilla",
+        price: 1999,
+        description: "(verde, rosa, blanco)",
         categoryId: 1,
         category: {
             name: "Mates",
             id: 1
         },
-        image: "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316114/BodegasDelSur/01_1619706181.webp",
+        image: "../../img/mate-acero-color-2-1.jpg",
 
     },
     {
 
         id: 5,
-        name: "Termo no se cuanto",
+        name: "Termo tipo Stabley Kalpana",
         stock: 10,
         price: 6400,
         description: "incluye: Azucarero , yerbero , mate y bombilla",
@@ -71,13 +71,13 @@ export const products = [
             name: "Termos",
             id: 2
         },
-        image: "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316114/BodegasDelSur/01_1619706181.webp",
+        image: "../../img/Termo tipo Stanley KALPANA.jpg",
 
     },
     {
 
         id: 6,
-        name: "Termo 1.3 Media Manija",
+        name: "Termo Acero Media Manija 1L",
         stock: 10,
         price: 5400,
         description: "incluye: Azucarero , yerbero , mate y bombilla",
@@ -86,7 +86,7 @@ export const products = [
             name: "Termos",
             id: 2
         },
-        image: "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316114/BodegasDelSur/01_1619706181.webp",
+        image: "../../img/Termo de acero color media manija de 1 litro.jpg",
 
     },
     {
@@ -94,14 +94,14 @@ export const products = [
         id: 7,
         name: "Termo Charly tipo Stanley",
         stock: 10,
-        price: 6900,
+        price: 8999,
         description: "incluye: Azucarero , yerbero , mate y bombilla",
         categoryId: 2,
         category: {
             name: "Termos",
             id: 2
         },
-        image: "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316114/BodegasDelSur/01_1619706181.webp",
+        image: "../../img/Termo Stanley Charly 1200cc.jpg",
 
     },
     {
@@ -109,44 +109,44 @@ export const products = [
         id: 8,
         name: "Set matero 'Llevame'  ",
         stock: 10,
-        price: 1400,
+        price: 1600,
         description: "incluye: Azucarero , yerbero , mate y bombilla",
         categoryId: 3,
         category: {
             name: "Set Materos",
             id: 3
         },
-        image: "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316114/BodegasDelSur/01_1619706181.webp",
+        image: "../../img/setmatero-llevame.png",
 
     },
     {
 
         id: 9,
-        name: "Set matero 'Llevame'  ",
+        name: "Set matero Cuore",
         stock: 10,
-        price: 1400,
+        price: 2699,
         description: "incluye: Azucarero , yerbero , mate y bombilla",
         categoryId: 3,
         category: {
             name: "Set Materos",
             id: 3
         },
-        image: "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316114/BodegasDelSur/01_1619706181.webp",
+        image: "../../img/setmatero-cuore.jpg",
 
     },
     {
 
         id: 10,
-        name: "Set matero 'Llevame'  ",
+        name: "Set matero cuadrado  ",
         stock: 10,
-        price: 1400,
+        price: 2400,
         description: "incluye: Azucarero , yerbero , mate y bombilla",
         categoryId: 3,
         category: {
             name: "Set Materos",
             id: 3
         },
-        image: "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316114/BodegasDelSur/01_1619706181.webp",
+        image: "../../img/setmatero-cuadrado.jpg",
 
     }
     // {
@@ -161,7 +161,7 @@ export const products = [
     //         name: "Set Materos",
     //         id: 3
     //     },
-    //     image: "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316114/BodegasDelSur/01_1619706181.webp",
+    //     image: "../../img/mate_forrado_tipo_pampa.jpg",
 
     // },
     // {
@@ -176,7 +176,7 @@ export const products = [
     //         name: "Set Materos",
     //         id: 3
     //     },
-    //     image: "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316114/BodegasDelSur/01_1619706181.webp",
+    //     image: "../../img/mate_forrado_tipo_pampa.jpg",
 
     // },
     // {
@@ -191,7 +191,7 @@ export const products = [
     //         name: "Set Materos",
     //         id: 3
     //     },
-    //     image: "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316114/BodegasDelSur/01_1619706181.webp",
+    //     image: "../../img/mate_forrado_tipo_pampa.jpg",
 
     // },
     // {
@@ -206,7 +206,7 @@ export const products = [
     //         name: "Set Materos",
     //         id: 3
     //     },
-    //     image: "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316114/BodegasDelSur/01_1619706181.webp",
+    //     image: "../../img/mate_forrado_tipo_pampa.jpg",
 
     // },
     // {
@@ -221,7 +221,7 @@ export const products = [
     //         name: "Set Materos",
     //         id: 3
     //     },
-    //     image: "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316114/BodegasDelSur/01_1619706181.webp",
+    //     image: "../../img/mate_forrado_tipo_pampa.jpg",
 
     // },
     // {
@@ -236,7 +236,7 @@ export const products = [
     //         name: "Set Materos",
     //         id: 3
     //     },
-    //     image: "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316114/BodegasDelSur/01_1619706181.webp",
+    //     image: "../../img/mate_forrado_tipo_pampa.jpg",
 
     // },
     // {
@@ -251,7 +251,7 @@ export const products = [
     //         name: "Set Materos",
     //         id: 3
     //     },
-    //     image: "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316114/BodegasDelSur/01_1619706181.webp",
+    //     image: "../../img/mate_forrado_tipo_pampa.jpg",
 
     // },
     // {
@@ -266,7 +266,7 @@ export const products = [
     //         name: "Set Materos",
     //         id: 3
     //     },
-    //     image: "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316114/BodegasDelSur/01_1619706181.webp",
+    //     image: "../../img/mate_forrado_tipo_pampa.jpg",
 
     // },
     // {
@@ -281,7 +281,7 @@ export const products = [
     //         name: "Set Materos",
     //         id: 3
     //     },
-    //     image: "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316114/BodegasDelSur/01_1619706181.webp",
+    //     image: "../../img/mate_forrado_tipo_pampa.jpg",
 
     // },
     // {
@@ -296,7 +296,7 @@ export const products = [
     //         name: "Set Materos",
     //         id: 3
     //     },
-    //     image: "https://res.cloudinary.com/bodegas-del-sur/image/upload/v1631316114/BodegasDelSur/01_1619706181.webp",
+    //     image: "../../img/mate_forrado_tipo_pampa.jpg",
 
     // }
 ];
