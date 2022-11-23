@@ -2,15 +2,20 @@ import ItemCount from './ItemCount'
 import { useContext, useState } from 'react'
 import { CartContext } from './CartContext';
 import { Link } from 'react-router-dom'
-import Button from './Button';
+import {ButtonSuccess} from './Button';
 import Swal from 'sweetalert2'
 
 const ItemDetail = ({ item }) => {
     const [itemCount, setItemCount] = useState(0)
     const { addToCart } = useContext(CartContext)
+  
 
+    // Funcion que recibe el parametro "qty" que seria el estado count pasado por parametro desde el componente ItemCount
     const onAdd = (qty) => {
-        alert("You have selected " + qty + " items.");
+        Swal.fire({
+            text:`Sellecionaste ${qty} items`,
+            icon:'success'
+        })
         setItemCount(item, qty);
         addToCart(item, qty);
     }
@@ -35,7 +40,7 @@ const ItemDetail = ({ item }) => {
                             {
                                 itemCount === 0
                                     ? <ItemCount initial={itemCount} onAdd={onAdd} />
-                                    : <Link to='/cart' ><Button txt='ver carrito'/></Link>
+                                    : <Link to='/cart' ><ButtonSuccess txt='ver carrito'/></Link>
                             }
 
 

@@ -2,9 +2,11 @@ import Button from "./Button"
 import React, { useState } from 'react'
 import { Link} from "react-router-dom"
 import CartWidget from "./CartWidget"
+import { useContext } from 'react'
+import { CartContext } from './CartContext'
 
 const Navbar = () => {
-
+    const { cartList } = useContext(CartContext)
 
     let [open, setOpen] = useState(false);
 
@@ -68,7 +70,13 @@ const Navbar = () => {
                     </ul>
                     <ul className="md:flex md:items-center md:pb-0 pb-12  absolute md:static top-7 md:top-5 right-20">
                         <li className="text-2xl cursor-pointer pr-8"><Link to='/cart'><ion-icon name="cart-outline"></ion-icon></Link></li>
-                        <CartWidget/>
+                        {
+                            /*cartList.length === 0
+                            ?<CartWidget display='hidden'/>
+                            :<CartWidget />*/
+                        }
+                        <CartWidget />
+                        
                         <div className="hidden md:block">
                                 <Button
                                     href=''
