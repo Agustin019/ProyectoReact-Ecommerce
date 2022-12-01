@@ -27,7 +27,6 @@ export const products = [
             id: 1
         },
         image: "../../img/mate_lalo.jpg",
-
     },
     {
 

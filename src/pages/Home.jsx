@@ -11,7 +11,7 @@ import  CartContextProvider  from "../components/CartContext"
 const Home = () => {
   return (
     <>
-      <CartContextProvider value={ [{ name:'Coca cola', price:120 } ,{ name:'pepsi', price:100}] }>
+      <CartContextProvider>
         <BrowserRouter>
           <Navbar />
             <Routes>

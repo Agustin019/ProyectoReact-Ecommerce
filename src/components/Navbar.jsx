@@ -2,11 +2,9 @@ import Button from "./Button"
 import React, { useState } from 'react'
 import { Link} from "react-router-dom"
 import CartWidget from "./CartWidget"
-import { useContext } from 'react'
-import { CartContext } from './CartContext'
 
 const Navbar = () => {
-    const { cartList } = useContext(CartContext)
+
 
     let [open, setOpen] = useState(false);
 

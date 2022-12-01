@@ -32,7 +32,10 @@ const CartContextProvider = (props) => {
             ])
         } else {
             //al encontrarlo, entonces aumentamos el qty de ese producto
-            found.qtyItem += qty;
+            found.qtyItem += qty
+            setCartList([
+                ...cartList
+            ]);
         }
 
 
@@ -47,15 +50,16 @@ const CartContextProvider = (props) => {
         setCartList(result)
     }
 
+    
 
     const badgeNumber = () => {
-        let acc = 0;
-        cartList.forEach((item) => {
-          acc += item.qtyItem
-        })
-        return acc
-      }
-  
+      let acc = 0;
+      cartList.forEach((item) => {
+        acc += item.qtyItem
+      })
+      return acc
+    }
+
     return (
         <CartContext.Provider value={{ cartList, addToCart, clear, deleteItem, obtenerTotal, badgeNumber }}>
             {props.children}

@@ -16,10 +16,10 @@ const ItemDetail = ({ item }) => {
             text:`Sellecionaste ${qty} items`,
             icon:'success'
         })
-        setItemCount(item, qty);
+        setItemCount(qty);
         addToCart(item, qty);
     }
-
+    
 
     return (
         <>
@@ -39,7 +39,7 @@ const ItemDetail = ({ item }) => {
 
                             {
                                 itemCount === 0
-                                    ? <ItemCount initial={itemCount} onAdd={onAdd} />
+                                    ? <ItemCount stock={item.stock} initial={itemCount} onAdd={onAdd} />
                                     : <Link to='/cart' ><ButtonSuccess txt='ver carrito'/></Link>
                             }
 
