@@ -37,7 +37,7 @@ const Navbar = () => {
 
 
                         <li className='md:ml-8 text-lg md:my-0 my-7' >
-                            {/* <a className='hover:text-gray-500 duration-500 font-semibold'>AAA</a> */}
+                           
                             <Link  to='/' className='hover:text-gray-500 duration-500 font-semibold' >Inicio</Link>
                         </li>
                         <li className='md:ml-8 text-lg md:my-0 my-7' >
@@ -53,10 +53,7 @@ const Navbar = () => {
 
 
 
-                        {/* 
-                        <Link to='/category/1' style={{ color: "white" }}>Vinos</Link>
-                    <Link to='/category/5' style={{ textDecoration: "none", color: "white" }}>LicoresLink</Link> */}
-
+                        
 
                         <div className='md:hidden'>
                             <Button
@@ -68,11 +65,7 @@ const Navbar = () => {
                     </ul>
                     <ul className="md:flex md:items-center md:pb-0 pb-12  absolute md:static top-7 md:top-5 right-20">
                         <li className="text-2xl cursor-pointer pr-8"><Link to='/cart'><ion-icon name="cart-outline"></ion-icon></Link></li>
-                        {
-                            /*cartList.length === 0
-                            ?<CartWidget display='hidden'/>
-                            :<CartWidget />*/
-                        }
+                      
                         <CartWidget />
                         
                         <div className="hidden md:block">

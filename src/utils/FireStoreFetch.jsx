@@ -6,7 +6,7 @@ import db  from './FirebaseConfig'
 export const FireStoreFetch = async (idCategory) => {
     let q;
     if (idCategory) {
-        q = query(collection(db, "products"), where('categoryId', '==', idCategory));
+        q = query( collection(db, "products"), where(  'categoryId', '==', parseInt(idCategory) ) ) ;
     } else {
         q = query(collection(db, "products"), orderBy('name'));
     }
@@ -29,7 +29,7 @@ export const firestoreFetchOne = async (idItem) => {
           ...docSnap.data()
       }
     } else {
-      // doc.data() will be undefined in this case
+     
       console.log("No such document!");
     }
 }

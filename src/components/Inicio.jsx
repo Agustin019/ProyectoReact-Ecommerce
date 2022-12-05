@@ -8,7 +8,6 @@ const Inicio = () => {
       <section className='grid grid-cols-1 sm:grid-cols-2 mx-auto sm:grid-rows-1 grid-rows-2 w-full gap-6'>
         <article className="flex flex-col  items-start  md:pl-24 pt-18">
           <p className=' text-gray-400  py-10 pt-28 leading-6'>
-            {/* <span className="text-indigo-600  md:text-7xl text-4xl"><ion-icon name="rose-outline"></ion-icon></span> */}
             <span className="md:text-5xl text-4xl text-center leading-10
              text-gray-700 font-bold uppercase">Bienvenidos a florbazar
             </span>

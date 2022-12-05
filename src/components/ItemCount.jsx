@@ -15,13 +15,13 @@ const ItemCount = ({stock, initial = 1, onAdd}) => {
 
   const increment = () => {
     if (count < stock) {
-        setCount(count + 1);
+      setCount(count + 1);
     }
 }
 
 const decrement = () => {
-    if (count > initial+1) {
-        setCount(count - 1);
+    if (count > initial + 1) {
+      setCount(count - 1);
     }
 }
 
@@ -40,7 +40,7 @@ const decrement = () => {
               : <ButtonDisabled txt='Add to cart'/>
           }
           {
-            stock === 0
+            stock < 1
             ? <p className='font-semibold text-base text-red-600'>¡Sin Stock!</p>
             : <p className='font-semibold text-base text-green-600'>¡Hay Existencias!</p>
           }

@@ -12,7 +12,7 @@ const ItemsFooter = ({Links, title}) => {
 
             </li>
         ))
-        // console.log(Links.link)
+  
        }
     </ul>
   )

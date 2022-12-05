@@ -10,7 +10,7 @@ const ItemDetail = ({ item }) => {
     const { addToCart } = useContext(CartContext)
   
 
-    // Funcion que recibe el parametro "qty" que seria el estado count pasado por parametro desde el componente ItemCount
+    // Funcion que recibe el parametro "qty" que es el estado count pasado por parametro desde el componente ItemCount
     const onAdd = (qty) => {
         Swal.fire({
             text:`Sellecionaste ${qty} items`,
